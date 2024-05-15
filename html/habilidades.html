@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>habilidades</title>
+</head>
+<body class="green lighten-3">
+    <!-- Navbar -->
+    <nav class="orange">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">JD</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html" class="fas fa-home">Inicio</a></li>
+            <li><a href="educacion.html"  class="fas fa-graduation-cap">Estudios</a></li>
+            <li><a href="habilidades.html" class="fas fa-laptop-code">Habilidades</a></li>
+            <li><a href="Formulario.html"class="fas fa-hand-point-right" >QUIERES CONTRATARME</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      <!-- Sidenav (para móviles) -->
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="educacion.html">Estudios</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="Formulario.html">Contacto</a></li>
+      </ul>
+      
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var elems = document.querySelectorAll('.sidenav');
+              var instances = M.Sidenav.init(elems);
+            });
+          </script>
+    <main class="container">
+        <article class="section">
+            <h2 class="blue-text text-darken-1">Habilidades</h2>
+            <ul class="collection">
+                <li class="collection-item avatar">
+                    Desarrollo de software
+                    <div class="progress">
+                        <div class="determinate" style="width: 100%"></div>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    Base de datos
+                    <div class="progress">
+                        <div class="determinate" style="width: 100%"></div>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    Trabajo en equipo
+                    <div class="progress">
+                        <div class="determinate" style="width: 90%"></div>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    Programación
+                    <div class="progress">
+                        <div class="determinate" style="width: 90%"></div>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    Inglés
+                    <div class="progress">
+                        <div class="determinate" style="width: 80%"></div>
+                    </div>
+                </li>
+            </ul>
+            <h2 class="blue-text text-darken-1">Idiomas</h2>
+            <ul class="collection">
+                <li class="collection-item">Español nativo</li>
+                <li class="collection-item">Inglés intermedio</li>
+            </ul>
+        </article>
+    </main>
+    <footer class="page-footer orange">
+        <div class="container">
+            <div class="row center">
+                <div class="col l12 s12">
+                    <h5 class="white-text center">Derechos reservados</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

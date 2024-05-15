@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b3a9a9;
+}
+
+
+nav {
+    background-color: #ff6f61;
+    color: #b3a9a9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 15px 20px;
+    font-size: 20px; 
+
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav a {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+        padding: 15px;
+        font-size: 16px; 
+    }
+}
+a:hover{
+    background-color: rgba(214, 23, 23, 0.315);
+    transition: .5s;
+    border: 2px solid orange;
+    transition: transform 0.3;
+    transform:scale(1.1) ;
+}
+
+main {
+    font-family: 'Arial', sans-serif;
+    background-color: #b3a9a9;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+article {
+    background: linear-gradient(90deg, rgb(198, 198, 178) 0%, rgb(204, 197, 180)50%);
+    border-radius: 10px;
+    padding: 24px 0px 40px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color:rgb(66, 66, 66);
+    animation: red 3.5s infinite;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;  
+    }
+}
+
+h3 {
+    color: #ff7f50; 
+    margin-top: 20px;
+    font-size: 27px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+
+li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 22px;
+}
+
+
+li:nth-child(odd) {
+    background-color: #ffd700; 
+}
+
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+a {
+    color: #1e90ff; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+a:hover {
+    color: white; 
+}
+
+footer {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes red{
+    0%{
+        text-shadow: 0 0 4px rgba(255, 0, 0, 0.665),0 0 4px orangered;
+    }
+    25%{
+        text-shadow: 0 0 2px rgba(255, 0, 0, 0.588),0 0 2px orangered;
+    }
+    50%{
+        text-shadow: 0 0 4px rgba(255, 0, 0, 0.561),0 0 4px orangered;
+    }
+    75%{
+        text-shadow: 0 0 2px rgba(255, 0, 0, 0.581),0 0 2px orangered;
+    }
+    100%{
+        text-shadow: 0 0 4px rgba(255, 0, 0, 0.583),0 0 4px orangered;
+    }
+}
+

@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+}
+
+
+nav {
+    background-color: #ff6f61;
+    color: #b3a9a9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 15px 20px;
+    font-size: 20px; 
+
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav a {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+        padding: 15px;
+        font-size: 16px; 
+    }
+}
+a:hover{
+    background-color: rgba(214, 23, 23, 0.315);
+    transition: .5s;
+    border: 2px solid red;
+    transition: transform 0.3;
+    transform:scale(1.1) ;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+article {
+    border-left: 5px solid #007BFF;
+    padding-left: 20px;
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e9ecef;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+    font-size: 30px;
+}
+
+li:hover {
+    transform: scale(1.05);
+    background-color: #cce5ff;
+}
+
+
+ul:first-of-type li {
+    background-color: #d4edda;
+}
+
+ul:first-of-type li:hover {
+    background-color: #c3e6cb;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    border-bottom: 2px solid #007BFF;
+}
+
+
+.contenedor {
+    width: 100%; 
+    background-color: #d4edda; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden; 
+}
+
+.desarrollo {
+    height: 20px; 
+    background:linear-gradient(90deg, rgb(1, 26, 255) 0%, rgb(98, 145, 255)50%);
+    width: 0%; 
+    border-radius: 8px; 
+    animation: maximo 6s ease-in-out infinite;
+    
+
+}
+
+
+.datos{
+    height: 20px; 
+    background:linear-gradient(90deg, rgb(1, 26, 255) 0%, rgb(98, 145, 255)50%);
+    width: 0%; 
+    border-radius: 8px; 
+    animation: maximo 6s ease-in-out infinite; 
+}
+
+.equipo{
+    height: 20px; 
+    background:linear-gradient(90deg, rgb(1, 26, 255) 0%, rgb(98, 145, 255)50%);
+    width: 0%; 
+    border-radius: 8px; 
+    animation: equipo 6s ease-in-out infinite; 
+}
+
+.prog{
+    height: 20px; 
+    background:linear-gradient(90deg, rgb(1, 26, 255) 0%, rgb(98, 145, 255)50%);
+    width: 0%; 
+    border-radius: 8px; 
+    animation: prog 6s ease-in-out infinite; 
+}
+
+.ing{
+    height: 20px; 
+    background:linear-gradient(90deg, rgb(1, 26, 255) 0%, rgb(98, 145, 255)50%);
+    width: 0%; 
+    border-radius: 8px; 
+    animation: ing 6s ease-in-out infinite; 
+}
+@keyframes maximo{
+    0%,16.67% { width: 0%; }
+    50% { width: 100%;}
+    100%{width: 100%;}
+
+}
+
+@keyframes equipo{
+    0%,16.67% { width: 0%; }
+    50% { width: 90%;}
+    100%{width: 90%;}
+}
+@keyframes prog{
+    0%,16.67% { width: 0%; }
+    50% { width: 90%;}
+    100%{width: 90%;}
+}
+@keyframes ing{
+    0%,16.67% { width: 0%; }
+    50% { width: 80%;}
+    100%{width: 80%;} 
+}
+
+
+footer {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

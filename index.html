@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+</head>
+<body class="green lighten-3">
+<!-- Navbar -->
+<nav class="orange">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">JD</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" class="fas fa-home">Inicio</a></li>
+        <li><a href="html/educacion.html"  class="fas fa-graduation-cap">Estudios</a></li>
+        <li><a href="html/habilidades.html" class="fas fa-laptop-code">Habilidades</a></li>
+        <li><a href="html/Formulario.html"class="fas fa-hand-point-right" >QUIERES CONTRATARME</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Sidenav (para móviles) -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="html/educacion.html">Estudios</a></li>
+    <li><a href="html/habilidades.html">Habilidades</a></li>
+    <li><a href="html/Formulario.html">Contacto</a></li>
+  </ul>
+  
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems);
+        });
+      </script>
+      
+    <!-- Header Content -->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <h1 class="header center black-text">Johan Stiven Diaz Betancur</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">Análisis y Desarrollo de Software</h5>
+            </div>
+            <div class="row center">
+                <img src="imagenes/messi.jpg" alt="" class="circle responsive-img">
+            </div>
+            <div class="row">
+                <p class="center-align">
+                    <i class="fa fa-phone"></i> (57) 3217304719<br>
+                    <i class="fas fa-home"></i> La Vega, Cund<br>
+                    <i class="fas fa-envelope"></i> johand0620@gmail.com
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="section">
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m6 green lighten-1">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+                        <h5 class="center">Perfil</h5>
+                        <p class="light">Soy una persona activa y curiosa. Me esfuerzo por hacer las cosas bien y lo más rápido posible. Soy bueno trabajando en equipo.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m6 green lighten-2">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">Referencias personales</h5>
+                        <p class="light center">Maria Angelica Corredor<br><i class="fa fa-phone"></i> (57)3173309322</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer orange">
+        <div class="container">
+            <div class="row center">
+                <div class="col l12 s12 ">
+                    <h5 class="white-text center">Derechos reservados</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
